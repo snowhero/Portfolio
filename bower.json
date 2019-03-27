@@ -1,0 +1,23 @@
+{
+  "name": "bower",
+  "homepage": "https://github.com/snowhero/Bootcamp2_Portfolio",
+  "authors": [
+    "snowhero <xionghiroyuki@gmail.com>"
+  ],
+  "description": "bower file",
+  "main": "bower",
+  "keywords": [
+    "bower"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

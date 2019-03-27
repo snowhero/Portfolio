@@ -1,0 +1,322 @@
+body{
+  margin: 0!important;
+  background: #07a;
+  background: -webkit-linear-gradient(left,#07a, #0aa, #07a);
+  background: -o-linear-gradient(right,#07a, #0aa, #07a);
+  background: -moz-linear-gradient(right,#07a, #0aa, #07a);
+  background: linear-gradient(to right,#07a, #0aa, #07a);
+  background-size: 200%;
+  background-position: 0%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  margin: 1.5em 4em 0;
+  color: #f5f5f5;
+  animation: bg-move 10s linear infinite;
+  -webkit-animation: bg-move 10s linear infinite;
+}
+
+.hero-image{
+/**  background:  -webkit-linear-gradient(#2B4F81	, #B0C4DE); **/
+  background: #07a;
+  background: -webkit-linear-gradient(left,#07a, #0aa, #07a);
+  background: -o-linear-gradient(right,#07a, #0aa, #07a);
+  background: -moz-linear-gradient(right,#07a, #0aa, #07a);
+  background: linear-gradient(to right,#07a, #0aa, #07a);
+}
+/**
+.circle, .home-circle {
+  position: relative;
+  margin: 0 auto 3em;
+  height: 15em;
+  width: 15em;
+  border-radius: 50%;
+  background: #999 url("selfie.png") 90% 0%;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 0 0.8em rgba(255,255,255,0.3);
+}
+.circle {
+  margin: -2.5em auto 0;
+  height: 4em;
+  width: 4em;
+  background: #999 url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/42863/profile/profile-512_5.jpg) 70% 0%;
+  background-size: 4.5em 4.5em;
+  box-shadow: 0 0 0 0.4em rgba(255,255,255,0.3);
+}
+.home-circle:before, .home-circle:after, .circle:before, .circle:after {
+  position: absolute;
+  content: 'Engineer';
+  width: 8.5em;
+  font-size: 1.5em;
+  top: 2em;
+  right: 7em;
+  font-weight: 700;
+  text-align: right;
+  top: 3.7em;
+  right: 11.2em;
+}
+.circle:before, .circle:after {
+  font-size: 1.5em;
+  top: 1em;
+  right: 4em;
+}
+.circle:after, .home-circle:after {
+  content: 'Web Development';
+  left: 11.25em;
+  text-align: left;
+  top: 4em;
+}
+.circle:after {
+  left: 5em;
+}
+**/
+.portrait-spacer{
+  height: 100px;
+}
+
+.position-up{
+  position: relative;
+  bottom: 80px;
+}
+.portrait{
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  background: gray;
+  border-style: outset;
+  border-width: thick;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.text-size{
+  font-size: 16px;
+}
+
+.selfie{
+  height: 360px;
+  width: 270px;
+  position: relative;
+  bottom: 80px;
+  right: 10px;
+}
+
+.name-top{
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.name-bottom{
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.name-quote{
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.no-margin{
+  margin: 0;
+}
+
+.abs-position{
+  position: absolute;
+}
+
+.tops{
+  z-index: 1;
+}
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.home:hover{
+  font-style: oblique;
+}
+
+.education{
+  height: 180px;
+  background-image: url('http://www.freepngimg.com/download/education/8-2-education-transparent.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+.project{
+  height: 180px;
+  background-image: url(folder_picture.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+.experience{
+  height: 180px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Circle-icons-tools.svg/2000px-Circle-icons-tools.svg.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+.text-label-space{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.icon-link{
+  text-decoration: none;
+  color: white;
+}
+.footer-spacer{
+  height: 20px;
+}
+
+.footer{
+  color: blue;
+  background: gray;
+}
+
+.icon{
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+}
+
+.top-space{
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.top-space-icon{
+  margin-top: 6px;
+}
+
+.clear-right{
+  clear: right;
+}
+
+.clear-left{
+  clear: left;
+}
+
+.clear{
+  clear: both;
+}
+
+.about-text{
+  font-size: 16px;
+}
+
+.c-lang{
+  height: 60px;
+  background-image: url('https://i.warosu.org/data/g/img/0473/25/1428018894705.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+.js-lang{
+  height: 60px;
+  background-image: url('http://www.northeastjsconference.com/wp-content/uploads/2015/11/learn-javascript.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+.html-css-lang{
+  height: 60px;
+  background-image: url('http://www.5ine.in/images/html5-css3.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+.verilog{
+  height: 60px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/e/ef/SystemVerilog_logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+.mplabx{
+  height: 80px;
+  background-image: url('http://www.microchip.com/images/default-source/development-tools/mplblgo.png?sfvrsn=2');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+.atom{
+  height: 80px;
+  background-image: url('https://raw.githubusercontent.com/stvhwrd/icons/master/atom/Atom-inner_shadow-512.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+.matlab{
+  height: 80px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/267px-Matlab_Logo.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+.quartus{
+  height: 80px;
+  background-image: url('https://www.altima.jp/members/data/Quartus_prime_icon.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-top: 10px;
+}
+
+.arrow{
+  height: 80px;
+  background-image: url('http://res.freestockphotos.biz/pictures/4/4444-illustration-of-a-blue-down-arrow-pv.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  margin-top: 10px;
+}

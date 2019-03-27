@@ -1,0 +1,43 @@
+
+// VARIABLES
+$primary-color: gray;
+$tablet: "(min-width: 768px) and (max-width: 1023px)";
+
+// NESTING
+
+nav{
+  background-color: white;
+  ul{
+    display: block;
+    li{
+      display: inline-block;
+      a{
+        color: $primary-color;
+        font-size: 20px;
+        @media #{$tablet}{
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+// MIXINS
+
+@mixin border-radius($radius){
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -o-border-radius: $radius;
+}
+
+// OUTPUT
+
+.box{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+// MEDIA QUERY MIXINS
