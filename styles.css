@@ -133,6 +133,10 @@ body{
   position: absolute;
 }
 
+.stick-position{ 
+  position: sticky;
+}
+
 .tops{
   z-index: 1;
 }
@@ -243,7 +247,7 @@ body{
 
 .js-lang{
   height: 60px;
-  background-image: url('http://www.northeastjsconference.com/wp-content/uploads/2015/11/learn-javascript.png');
+  background-image: url('https://antoineguillot.files.wordpress.com/2016/07/learn-javascript.png?w=344');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -273,7 +277,7 @@ body{
 
 .mplabx{
   height: 80px;
-  background-image: url('http://www.microchip.com/images/default-source/development-tools/mplblgo.png?sfvrsn=2');
+  background-image: url('https://percepio.com/wp-content/uploads/2018/01/mplblgo.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
